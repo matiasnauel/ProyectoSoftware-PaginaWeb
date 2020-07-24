@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ingresar.css">
+    <!--Link Style Boopstrap 4-->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <title>Registrarse</title>
+</head>
+
+<body>
+    <!--Barra navegador -->
+    <header>
+        <!--Redirigirme a la pagina principal-->
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Contenido principal-->
+    <main>
+        <div class="container input-group">
+            <div class="panel panel-default panelStyle" id="contenido">
+                <h3 class="titulo">Registrarse</h3>
+                <form class="fondo-style form--control-feedback " id="formulario">
+                    <div class="form-group">
+                        <label for="Nme">Nombre:</label>
+                        <input type="text" name="nombre" class="form-control" id="Nombre" ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="Ape ">Apellido:</label>
+                        <input type="text " class="form-control " id="Apellido "">
+                    </div>
+                    <div class="form-group ">
+                        <label for="email ">Email:</label>
+                        <input type="email " name="email " class="form-control " id="email ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="pwd ">Contraseña:</label>
+                        <input type="password " name="contraseña " class="form-control " id="pwd ">
+                    </div>
+                    <br>
+                    <br>
+
+                    <button type="click " onclick="funciona(); " class="btn btn-primary pull-right ">Registarse </button>
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!--Boopstrap 4 links-->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js "></script>
+    <!--FIREBASE SCRIPT-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js "></script>
+    <!--Add SDKs for Firebase  autentication -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js "></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js "></script>
+    <!--Script Connection Firebase-->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyByEtWI3BOnbr1K2cjrpa3eKOaQx7AXnGI ",
+            authDomain: "usuario-5093e.firebaseapp.com ",
+            databaseURL: "https://usuario-5093e.firebaseio.com ",
+            projectId: "usuario-5093e ",
+            storageBucket: "usuario-5093e.appspot.com ",
+            messagingSenderId: "638040248867 ",
+            appId: "1:638040248867:web:574ef1ae221e7202ee9796 ",
+            measurementId: "G-2MHWFFY2J5 "
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        const auth = firebase.auth();
+    </script>
+    <!-- Script Registrarse.js -->
+    <script src="ingresar.js "></script>
+</body>
+
+</html>

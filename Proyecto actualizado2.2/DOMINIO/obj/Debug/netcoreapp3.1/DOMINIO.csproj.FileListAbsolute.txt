@@ -1,0 +1,17 @@
+C:\Users\Alan\source\repos\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.deps.json
+C:\Users\Alan\source\repos\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\Alan\source\repos\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\Users\Alan\source\repos\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.csprojAssemblyReference.cache
+C:\Users\Alan\source\repos\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfoInputs.cache
+C:\Users\Alan\source\repos\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfo.cs
+C:\Users\Alan\source\repos\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\Alan\source\repos\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\Users\Alan\Documents\disco viejo\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.deps.json
+C:\Users\Alan\Documents\disco viejo\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\Alan\Documents\disco viejo\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\Users\Alan\Documents\disco viejo\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.csprojAssemblyReference.cache
+C:\Users\Alan\Documents\disco viejo\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfoInputs.cache
+C:\Users\Alan\Documents\disco viejo\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfo.cs
+C:\Users\Alan\Documents\disco viejo\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Documents\disco viejo\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\Alan\Documents\disco viejo\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.pdb

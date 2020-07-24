@@ -1,0 +1,9 @@
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.deps.json
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.dll
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.csprojAssemblyReference.cache
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.AssemblyInfoInputs.cache
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.AssemblyInfo.cs
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.pdb
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.csproj.CoreCompileInputs.cache
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.dll
+C:\Users\Alan\source\repos\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.pdb

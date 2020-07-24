@@ -1,0 +1,49 @@
+/* Globales */
+
+body {
+    background: rgb(186, 184, 205);
+    background: linear-gradient(90deg, rgba(186, 184, 205, 1) 12%, rgba(224, 224, 237, 1) 51%, rgba(79, 199, 223, 1) 100%);
+}
+
+
+/* header  */
+
+.navbar-default {
+    background-color: #bab8cd !important;
+    border-color: transparent!important;
+    background: linear-gradient(90deg, rgba(186, 184, 205, 1) 12%, rgba(224, 224, 237, 1) 51%, rgba(79, 199, 223, 1) 100%);
+}
+
+
+/* Estilo panel */
+
+.panelStyle {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    -webkit-box-shadow: -5px 10px 24px -2px rgba(0, 0, 0, 0.75)!important;
+    -moz-box-shadow: -5px 10px 24px -2px rgba(0, 0, 0, 0.75)!important;
+    box-shadow: -5px 10px 24px -2px rgba(0, 0, 0, 0.75)!important;
+}
+
+
+/* Contenedor panel  */
+
+.contenedor-flex {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+/* titulo style */
+
+.titulo {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+
+/* boton */

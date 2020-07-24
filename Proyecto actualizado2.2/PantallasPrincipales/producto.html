@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Producto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="css/superfish.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- StylePublicacion  -->
+    <link rel="stylesheet" href="css/Publicacion.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+
+    <style>
+        a {
+            color: #76939e;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+        }
+        
+        .container-fluid-navbar {
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 15px;
+            padding-right: 50px;
+        }
+        
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: 20px;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .btn-default {
+            color: #fdf3f3;
+            background-color: #d8bcbc;
+            border-color: #ccc;
+        }
+        
+        .barraClasificadora {
+            margin: 10px;
+        }
+        
+        .topnav {
+            overflow: hidden;
+        }
+        
+        .topnav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .topnav a:hover {
+            border-bottom: 3px solid red;
+            cursor: pointer;
+        }
+        
+        .description-producto {
+            cursor: pointer!important;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            background-color: white;
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+        }
+        
+        .dropdown button {
+            padding-top: 18px;
+            background-color: white;
+            outline: none!important;
+            border: none;
+        }
+        
+        .TituloNombre {
+            font-weight: 300;
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+        
+        .Precio {
+            font-size: 60px;
+            font-weight: bold;
+        }
+        
+        .seccionStock {
+            margin-top: 1px;
+            margin-bottom: 15px;
+        }
+        
+        .Txtcantidad {
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        .seccionCantidad {
+            margin-top: 1px;
+            margin-bottom: 15px;
+        }
+        
+        .seccionBotones {
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .btn-VerMas {
+            font-size: 20px;
+            text-decoration: none!important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class=" seccion-bottom  ">
+        <div class="container-fluid  ">
+            <div class="navbar-header ">
+                <a class="navbar-brand" href="PaginaPrincipal.html"><img src="images/logo.png" style="width: 40% ;"></a>
+            </div>
+
+
+            <ul class="nav navbar-nav navbar-right container-fluid-navbar">
+                <form class="navbar-form navbar-left " id="formulario">
+                    <div class="form-group">
+                        <input type="text" class="form-control  w3-margin-top" placeholder="Buscar.." id="search">
+                    </div>
+                    <button type="submit" class="btn  w3-margin-top"><i class="glyphicon glyphicon-search"></i></button>
+                </form>
+
+                <li>
+                    <div class="dropdown">
+                        <button><i class="  fa fa-user-o w3-margin-top " aria-hidden="true"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Iniciar sesión</a>
+                            <a href="#">Registrarse</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li><a href="#"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true"></i></a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="container w3-margin-top ">
+            <ul class="nav  nav-justified w3-center topnav">
+                <li>
+                    <a class="barraClasificadora">Indumentaria Invierno</a>
+                </li>
+                <li>
+                    <a class="barraClasificadora">Indumentaria Verano</a>
+                </li>
+                <li>
+                    <a class="barraClasificadora">Indumentaria otoño </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </header>
+
+
+    <main class="contenedor seccion" id="contenedorMaestro">
+
+        <div class="contenedor-informacion" id="contenedorAprendiz">
+            <img alt="Imagen-Producto" class="imagen producto" id="producto">
+            <div class="contenido">
+                <p class="TituloNombre" id="nombre">SHORT VERANO ALGODON 100%</p>
+
+                <span class="Precio" id="precio">$5400</span>
+
+                <div class="seccionStock">
+                    <span class="label label-default posicion">Stock Disponible</span>
+                </div>
+                <form class="formulario-pedido">
+                    <div class="seccionCantidad">
+                        <Label class="Txtcantidad" id="stock">CANTIDAD</Label>
+                        <input class="form-control" min="1" type="number">
+                        <label class="Txtcantidad">Medios de pago</label>
+                        <img src="/images/mercadopago.png" class="media-object" alt="" style="width: 50%;">
+
+                    </div>
+
+
+
+
+                </form>
+                <br>
+                <br>
+                <div class="seccionBotones contenido-producto">
+                    <button class=" boton  ">AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+    <div id="borrar">
+        <section class="comentarios seccion" id="seccionComentarios">
+
+            <div class="container">
+                <label class="pull-right"> Ordenar por   <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                  <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Más reciente</a></li>
+                    <li><a href="#">Más antiguo</a></li>
+                </ul>
+            </div></label>
+
+                <h2> Comentarios</h2>
+
+                <hr>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <div class="media-left">
+                            <img src="images/fotoperfil.jpg" class="img-rounded" alt="Cinque Terre" class="media-object" style="width:60px">
+
+                        </div>
+                    </div>
+                    <div class="col-sm-11">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <textarea name="text" class="form-control" placeholder="Agregar un  Comentario.." id="comentario"></textarea>
+
+
+                            </div>
+                        </div>
+                        <button class="btn btn-primary pull-right " onclick="comentar();">Comentar</button>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+
+
+
+
+
+            <article class="container seccion" id="secciones">
+
+
+
+
+            </article>
+
+            <div class="container">
+                <button class="btn btn-link btn-VerMas" onclick="VerMas();">Ver más comentarios </button>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+
+        </div>
+
+    </div>
+
+
+
+    <footer id="fh5co-footer" role="contentinfo">
+        <div class="container-fluid">
+            <div class="footer-content">
+
+                <div class="social">
+                    <a href="#"><i class="icon-facebook3"></i></a>
+                    <a href="#"><i class="icon-instagram2"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Boopstrap 4 links-->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <!--FIREBASE SCRIPT-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <!--Add SDKs for Firebase  autentication -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+    <!--Script Connection Firebase-->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyByEtWI3BOnbr1K2cjrpa3eKOaQx7AXnGI",
+            authDomain: "usuario-5093e.firebaseapp.com",
+            databaseURL: "https://usuario-5093e.firebaseio.com",
+            projectId: "usuario-5093e",
+            storageBucket: "usuario-5093e.appspot.com",
+            messagingSenderId: "638040248867",
+            appId: "1:638040248867:web:574ef1ae221e7202ee9796",
+            measurementId: "G-2MHWFFY2J5"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        const auth = firebase.auth();
+    </script>
+    <script type="text/javascript" src="js/localstoragePublicacion.js"></script>
+    <script type="text/javascript" src="js/producto.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- masonry -->
+    <script src="js/jquery.masonry.min.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
