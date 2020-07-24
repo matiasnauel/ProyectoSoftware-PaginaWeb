@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
 <html class="no-js">
-
+<!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Producto</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-
-
-    <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="" />
     <meta property="og:image" content="" />
     <meta property="og:url" content="" />
@@ -25,11 +23,12 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico">
+    <!--Icons weasome-->
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Proyectoactualizado2.2/PantallasPrincipales/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
     <!-- Icomoon Icon Fonts-->
@@ -43,26 +42,60 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- StylePublicacion  -->
-    <link rel="stylesheet" href="css/Publicacion.css">
+    <link rel="stylesheet" href="css/estilosMenu.css">
 
-    <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
 
-
     <style>
-        a {
-            color: #76939e;
-            -webkit-transition: 0.5s;
-            -o-transition: 0.5s;
-            transition: 0.5s;
-        }
-        
         .container-fluid-navbar {
             margin-right: auto;
             margin-left: auto;
             padding-left: 15px;
             padding-right: 50px;
+        }
+        
+        .containere {
+            position: relative!important;
+            width: 50%;
+        }
+        
+        .image {
+            opacity: 1;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        .containere:hover .middle {
+            opacity: 1;
+        }
+        
+        .text {
+            color: black;
+            font-size: 14px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: white;
+            font-weight: bold
+        }
+        
+        a {
+            color: #76939e;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
         }
         
         .fa {
@@ -131,46 +164,45 @@
             border: none;
         }
         
-        .TituloNombre {
+        .servicios {
+            margin: 3rem auto;
+        }
+        
+        .contenedor-servicios {
+            margin-top: 3rem;
+        }
+        
+        @media (min-width:768px) {
+            .contenedor-servicios {
+                display: flex;
+                justify-content: space-between;
+            }
+            .servicio {
+                flex: 0 0 calc( 33.3% - 1rem);
+            }
+        }
+        
+        .servicio {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .service-text {
+            margin: 0;
+            text-align: center;
+            letter-spacing: 2px;
             font-weight: 300;
-            font-size: 30px;
-            margin-bottom: 0px;
         }
         
-        .Precio {
-            font-size: 60px;
-            font-weight: bold;
-        }
-        
-        .seccionStock {
-            margin-top: 1px;
-            margin-bottom: 15px;
-        }
-        
-        .Txtcantidad {
-            font-size: 20px;
-            font-weight: 300;
-        }
-        
-        .seccionCantidad {
-            margin-top: 1px;
-            margin-bottom: 15px;
-        }
-        
-        .seccionBotones {
-            margin-top: 20px;
-            margin-bottom: 15px;
-        }
-        
-        .btn-VerMas {
-            font-size: 20px;
-            text-decoration: none!important;
+        .boton-user {
+            font-size: 20px!important;
         }
     </style>
+
 </head>
 
 <body>
-
     <header class=" seccion-bottom  ">
         <div class="container-fluid  ">
             <div class="navbar-header ">
@@ -181,22 +213,23 @@
             <ul class="nav navbar-nav navbar-right container-fluid-navbar">
                 <form class="navbar-form navbar-left " id="formulario">
                     <div class="form-group">
-                        <input type="text" class="form-control  w3-margin-top" placeholder="Buscar.." id="search">
+                        <input type="search" class="form-control  w3-margin-top" placeholder="Buscar.." id="search">
                     </div>
                     <button type="submit" class="btn  w3-margin-top"><i class="glyphicon glyphicon-search"></i></button>
+
                 </form>
 
                 <li>
                     <div class="dropdown">
-                        <button><i class="  fa fa-user-o w3-margin-top " aria-hidden="true"></i></button>
-                        <div class="dropdown-content">
-                            <a href="#">Iniciar sesión</a>
-                            <a href="#">Registrarse</a>
+                        <button class="boton-user"><i class="  fas fa-user-alt w3-margin-top " aria-hidden="true"></i></button>
+                        <div class="dropdown-content" id="dropdow-contentId">
+                            <a href="#" onclick="IniciarSesion();">Iniciar sesión</a>
+
                         </div>
                     </div>
                 </li>
 
-                <li><a href="#"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true"></i></a></li>
+                <li><a href="carrito.html"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true"></i></a></li>
             </ul>
 
 
@@ -205,13 +238,13 @@
         <div class="container w3-margin-top ">
             <ul class="nav  nav-justified w3-center topnav">
                 <li>
-                    <a class="barraClasificadora">Indumentaria Invierno</a>
+                    <a class="barraClasificadora" onclick='BuscarDescripcion("Indumentaria Invierno");'>Indumentaria Invierno</a>
                 </li>
                 <li>
-                    <a class="barraClasificadora">Indumentaria Verano</a>
+                    <a class="barraClasificadora" onclick='BuscarDescripcion("Indumentaria Verano");'>Indumentaria Verano</a>
                 </li>
                 <li>
-                    <a class="barraClasificadora">Indumentaria otoño </a>
+                    <a class="barraClasificadora" onclick='BuscarDescripcion("Indumentaria otoño");'>Indumentaria otoño </a>
                 </li>
 
             </ul>
@@ -220,119 +253,78 @@
     </header>
 
 
-    <main class="contenedor seccion" id="contenedorMaestro">
 
-        <div class="contenedor-informacion" id="contenedorAprendiz">
-            <img alt="Imagen-Producto" class="imagen producto" id="producto">
-            <div class="contenido">
-                <p class="TituloNombre" id="nombre">SHORT VERANO ALGODON 100%</p>
-
-                <span class="Precio" id="precio">$5400</span>
-
-                <div class="seccionStock">
-                    <span class="label label-default posicion">Stock Disponible</span>
+    <main class="seccion-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="list-group ">
+                        <p class="list-group-item"> Categorias </p>
+                        <a href="#" class="list-group-item" onclick='BuscarCategoria("Indumentaria");'> Indumentaria</a>
+                        <a href="#" class="list-group-item" onclick='BuscarCategoria("Calzado");'> Calzado</a>
+                        <a href="#" class="list-group-item" onclick='BuscarCategoria("Accesorios");'> Accesorios</a>
+                    </ul>
                 </div>
-                <form class="formulario-pedido">
-                    <div class="seccionCantidad">
-                        <Label class="Txtcantidad" id="stock">CANTIDAD</Label>
-                        <input class="form-control" min="1" type="number">
-                        <label class="Txtcantidad">Medios de pago</label>
-                        <img src="/images/mercadopago.png" class="media-object" alt="" style="width: 50%;">
+                <div class="col-md-9">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">P R O D U C T O S</h3>
+                        </div>
+                    </div>
+                    <div class="panel" id="panel">
+                        <div class="col-md-12" id="maestro">
+                            <div class="w3-row-padding" id="contenedor">
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+                        <!--Contenedor productos row-padding-->
+
+                        <!--Boton ver más-->
+                        <div class="verMas w3-center w3-margin-top w3-margin-bottom" id="paginacion">
+                            <button class="btn btn-default" onclick="VerMas();">Ver más</button>
+                        </div>
+
 
                     </div>
-
-
-
-
-                </form>
-                <br>
-                <br>
-                <div class="seccionBotones contenido-producto">
-                    <button class=" boton  ">AGREGAR AL CARRITO</button>
                 </div>
-            </div>
 
+
+            </div>
 
         </div>
 
     </main>
-    <div id="borrar">
-        <section class="comentarios seccion" id="seccionComentarios">
-
-            <div class="container">
-                <label class="pull-right"> Ordenar por   <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
-                  <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Más reciente</a></li>
-                    <li><a href="#">Más antiguo</a></li>
-                </ul>
-            </div></label>
-
-                <h2> Comentarios</h2>
-
-                <hr>
-                <div class="row">
-                    <div class="col-sm-1">
-                        <div class="media-left">
-                            <img src="images/fotoperfil.jpg" class="img-rounded" alt="Cinque Terre" class="media-object" style="width:60px">
-
-                        </div>
-                    </div>
-                    <div class="col-sm-11">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <textarea name="text" class="form-control" placeholder="Agregar un  Comentario.." id="comentario"></textarea>
-
-
-                            </div>
-                        </div>
-                        <button class="btn btn-primary pull-right " onclick="comentar();">Comentar</button>
-                    </div>
-
-                </div>
-                <hr>
-            </div>
 
 
 
 
 
-            <article class="container seccion" id="secciones">
-
-
-
-
-            </article>
-
-            <div class="container">
-                <button class="btn btn-link btn-VerMas" onclick="VerMas();">Ver más comentarios </button>
-            </div>
-        </section>
-    </div>
-
-    <div class="container-fluid">
-        <div class="container">
-
-        </div>
-
-    </div>
 
 
 
     <footer id="fh5co-footer" role="contentinfo">
-        <div class="container-fluid">
+        <div class="container">
+
             <div class="footer-content">
 
                 <div class="social">
+
                     <a href="#"><i class="icon-facebook3"></i></a>
                     <a href="#"><i class="icon-instagram2"></i></a>
 
                 </div>
             </div>
+
         </div>
     </footer>
-
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!--Boopstrap 4 links-->
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
@@ -362,17 +354,18 @@
         firebase.analytics();
         const auth = firebase.auth();
     </script>
-    <script type="text/javascript" src="js/localstoragePublicacion.js"></script>
-    <script type="text/javascript" src="js/producto.js"></script>
+
+    <script type="text/javascript" src="js/localstorage.js"></script>
+    <script type="text/javascript" src="js/menuprincipal.js"></script>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
     <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js "></script>
     <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js "></script>
     <!-- masonry -->
-    <script src="js/jquery.masonry.min.js"></script>
+    <script src="js/jquery.masonry.min.js "></script>
     <!-- MAIN JS -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js "></script>
 
 </body>
 
