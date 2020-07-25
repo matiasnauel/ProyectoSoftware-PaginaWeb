@@ -141,7 +141,8 @@ function FiltrarDescripcion(descripcion)
 	ddiv.append(dddiv);
 
 	var mainmaestro2= document.createElement('main');
-	mainmaestro2.id="main";
+    mainmaestro2.id="main";
+    mainmaestro2.className="contenedor seccion";
 	//mainmaestro2.className="MainCarrito";
 
 	mainmaestro2.append(main);
@@ -183,6 +184,7 @@ function FiltrarDescripcion(descripcion)
                 var imagen = document.createElement('IMG');
                 imagen.src = 'images/' + item.imagen;
                 imagen.id = item.publicacionID;
+                imagen.style.width="100%";
 
                 var div2 = document.createElement('div');
                 div2.className = "middle";
