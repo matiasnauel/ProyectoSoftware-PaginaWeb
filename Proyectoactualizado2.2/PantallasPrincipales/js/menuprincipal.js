@@ -70,6 +70,12 @@ window.onload = function() {
 
 
             });
+           // var divboton = document.createElement("div");
+           //divboton.className="verMas w3-center w3-margin-top w3-margin-bottom";
+           //var boton2= document.createElement("button");
+           //boton2.className="btn btn-default";
+           //boton2.onclick= VerMas();
+           //$("#panel").append(divboton);
 
 
 
