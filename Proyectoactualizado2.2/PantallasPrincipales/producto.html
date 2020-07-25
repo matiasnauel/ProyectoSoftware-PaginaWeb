@@ -45,12 +45,38 @@
 
     <!-- StylePublicacion  -->
     <link rel="stylesheet" href="css/Publicacion.css">
+    
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
 
 
     <style>
+           .image {
+            opacity: 1;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        .containere {
+            position: relative!important;
+            width: 50%;
+        }
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .containere:hover .middle {
+            opacity: 1;
+        }
+        
         a {
             color: #76939e;
             -webkit-transition: 0.5s;
