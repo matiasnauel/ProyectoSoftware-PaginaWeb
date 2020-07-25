@@ -70,12 +70,12 @@ window.onload = function() {
 
 
             });
-           // var divboton = document.createElement("div");
-           //divboton.className="verMas w3-center w3-margin-top w3-margin-bottom";
-           //var boton2= document.createElement("button");
-           //boton2.className="btn btn-default";
-           //boton2.onclick= VerMas();
-           //$("#panel").append(divboton);
+            // var divboton = document.createElement("div");
+            //divboton.className="verMas w3-center w3-margin-top w3-margin-bottom";
+            //var boton2= document.createElement("button");
+            //boton2.className="btn btn-default";
+            //boton2.onclick= VerMas();
+            //$("#panel").append(divboton);
 
 
 
@@ -473,3 +473,61 @@ function BuscarCategoria(categoria) {
 
     });
 }
+
+
+
+//--------------------------------------------------------------------FIREBASE------------------------------------------------------------------------------//
+var contenido = document.getElementById('contenido');
+
+
+function Cerrar() {
+    firebase.auth().signOut().then(function() {
+        console.log("Finalizo sesion");
+        location.href = "/repo/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/PantallasPrincipales/PaginaPrincipal.html";
+    }).catch(function(error) {
+        console.log(error);
+    });
+}
+//Agregar un Obsevador para obtener información del usuario ingresado a la pagina
+function Observador() {
+    firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+            Aparece(user);
+            // User is signed in.
+            console.log("existe usuario activo");
+            var displayName = user.displayName;
+            var email = user.email;
+            var emailVerified = user.emailVerified;
+            var photoURL = user.photoURL;
+            var isAnonymous = user.isAnonymous;
+            var uid = user.uid;
+            var providerData = user.providerData;
+            // ...
+            //devuelve el token del usuario
+            user.getIdToken().then(function(data) {
+                console.log(data)
+            });
+            console.log("hola");
+
+        } else {
+            // User is signed out.
+            // ...
+            console.log("no existe el usuario");
+        }
+    });
+}
+Observador();
+
+function iniciarSesion() {
+
+    location.href = "/repo/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/LoginTP/login.html";
+
+}
+
+function Aparece(user) {
+    //Si se verifico el usuario que rediriga la pagina
+    if (user.uid != null) {
+        contenido.innerHTML = `<a href="#" onclick="Cerrar();">Cerrar sesión</a>`;
+    }
+}
+Aparece();

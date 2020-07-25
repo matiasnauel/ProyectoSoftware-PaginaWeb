@@ -217,8 +217,8 @@
                 <li>
                     <div class="dropdown">
                         <button><i class="  fas fa-user-alt w3-margin-top " aria-hidden="true" style='font-size:24px'></i></button>
-                        <div class="dropdown-content">
-                            <a href="#">Iniciar sesión</a>
+                        <div class="dropdown-content" id="contenido">
+                            <a href="#" onclick="iniciarSesion();">Iniciar sesión</a>
                         </div>
                     </div>
                 </li>
@@ -319,7 +319,32 @@
         </div>
     </footer>
 
-
+    <!--FIREBASE SCRIPT-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <!--Add SDKs for Firebase  autentication -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+    <!--Script Connection Firebase-->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyByEtWI3BOnbr1K2cjrpa3eKOaQx7AXnGI",
+            authDomain: "usuario-5093e.firebaseapp.com",
+            databaseURL: "https://usuario-5093e.firebaseio.com",
+            projectId: "usuario-5093e",
+            storageBucket: "usuario-5093e.appspot.com",
+            messagingSenderId: "638040248867",
+            appId: "1:638040248867:web:574ef1ae221e7202ee9796",
+            measurementId: "G-2MHWFFY2J5"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        const auth = firebase.auth();
+    </script>
     <script type="text/javascript" src="js/localstorage.js"></script>
     <script type="text/javascript" src="js/menuprincipal.js"></script>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
@@ -334,6 +359,9 @@
     <!--Iconos W3Schools Boopstrap-->
     <!--Icono boopstrap school3-->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--Boopstrap 4 links-->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
 
 </body>
