@@ -483,7 +483,7 @@ var contenido = document.getElementById('contenido');
 function Cerrar() {
     firebase.auth().signOut().then(function() {
         console.log("Finalizo sesion");
-        location.href = "/repo/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/PantallasPrincipales/PaginaPrincipal.html";
+        location.href = "/repositorio2/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/PantallasPrincipales/PaginaPrincipal.html";
     }).catch(function(error) {
         console.log(error);
     });

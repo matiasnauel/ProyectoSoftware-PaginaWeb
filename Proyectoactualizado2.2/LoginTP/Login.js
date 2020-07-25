@@ -48,12 +48,15 @@ function loginAPIGoogle(data, Uids) {
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.setRequestHeader("Authorization", "Bearer " + data);
         },
+
+        success: function(datos) {
+            localStorage.setItem("carritoID", datos.CarritoID);
+            localStorage.setItem("clienteID", datos.ClienteID);
+            location.href = "/repositorio2/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/PantallasPrincipales/PaginaPrincipal.html";
+        },
         error: function(ex) {
             console.log(ex.status + " - " + ex.statusText);
         },
-        success: function() {
-            location.href = "";
-        }
     });
 }
 
