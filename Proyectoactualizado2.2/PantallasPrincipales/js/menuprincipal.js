@@ -520,7 +520,7 @@ Observador();
 
 function iniciarSesion() {
 
-    location.href = "/repo/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/LoginTP/login.html";
+    location.href = "/repositorio2/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/LoginTP/login.html";
 
 }
 
