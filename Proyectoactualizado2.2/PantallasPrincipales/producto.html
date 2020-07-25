@@ -161,7 +161,8 @@
             margin-top: 20px;
             margin-bottom: 15px;
         }
-		.btn-VerMas {
+        
+        .btn-VerMas {
             font-size: 20px;
             text-decoration: none!important;
         }
@@ -178,7 +179,7 @@
 
 
             <ul class="nav navbar-nav navbar-right container-fluid-navbar">
-                <form class="navbar-form navbar-left "  id="formulario">
+                <form class="navbar-form navbar-left " id="formulario">
                     <div class="form-group">
                         <input type="text" class="form-control  w3-margin-top" placeholder="Buscar.." id="search">
                     </div>
@@ -187,15 +188,16 @@
 
                 <li>
                     <div class="dropdown">
-                        <button><i class="  fa fa-user-o w3-margin-top " aria-hidden="true"></i></button>
+                        <button><i class="  fas fa-user-alt w3-margin-top " aria-hidden="true" style='font-size:24px'></i></button>
                         <div class="dropdown-content">
                             <a href="#">Iniciar sesión</a>
-                            <a href="#">Registrarse</a>
+
                         </div>
                     </div>
                 </li>
 
-                <li><a href="#"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true"></i></a></li>
+                <li><a href="carrito.html"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true" style="font-size: 24px;"></i></a></li>
+
             </ul>
 
 
@@ -203,7 +205,7 @@
 
         <div class="container w3-margin-top ">
             <ul class="nav  nav-justified w3-center topnav">
-                 <li>
+                <li>
                     <a class="barraClasificadora" onclick='FiltrarDescripcion("Indumentaria Invierno");'>Indumentaria Invierno</a>
                 </li>
                 <li>
@@ -255,11 +257,11 @@
         </div>
 
     </main>
-	<div id="borrar">
-    <section class="comentarios seccion" id="seccionComentarios">
+    <div id="borrar">
+        <section class="comentarios seccion" id="seccionComentarios">
 
-        <div class="container">
-            <label class="pull-right"> Ordenar por   <div class="dropdown">
+            <div class="container">
+                <label class="pull-right"> Ordenar por   <div class="dropdown">
                 <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
                   <span class="caret"></span></button>
                 <ul class="dropdown-menu">
@@ -268,48 +270,48 @@
                 </ul>
             </div></label>
 
-            <h2>  Comentarios</h2>
+                <h2> Comentarios</h2>
 
-            <hr>
-            <div class="row">
-                <div class="col-sm-1">
-                    <div class="media-left">
-                        <img src="images/fotoperfil.jpg" class="img-rounded" alt="Cinque Terre" class="media-object" style="width:60px">
-
-                    </div>
-                </div>
-                <div class="col-sm-11">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <textarea name="text" class="form-control" placeholder="Agregar un  Comentario.." id="comentario"></textarea>
-
+                <hr>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <div class="media-left">
+                            <img src="images/fotoperfil.jpg" class="img-rounded" alt="Cinque Terre" class="media-object" style="width:60px">
 
                         </div>
                     </div>
-                    <button class="btn btn-primary pull-right " onclick="comentar();">Comentar</button>
+                    <div class="col-sm-11">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <textarea name="text" class="form-control" placeholder="Agregar un  Comentario.." id="comentario"></textarea>
+
+
+                            </div>
+                        </div>
+                        <button class="btn btn-primary pull-right " onclick="comentar();">Comentar</button>
+                    </div>
+
                 </div>
-
+                <hr>
             </div>
-            <hr>
-        </div>
 
 
 
 
 
-        <article class="container seccion" id="secciones">
-            
-          
+            <article class="container seccion" id="secciones">
 
 
-        </article>
-		
-<div class="container">
-<button class="btn btn-link btn-VerMas" onclick="VerMas();">Ver más comentarios </button>
-</div>
-    </section>
-	</div>
-	
+
+
+            </article>
+
+            <div class="container">
+                <button class="btn btn-link btn-VerMas" onclick="VerMas();">Ver más comentarios </button>
+            </div>
+        </section>
+    </div>
+
     <div class="container-fluid">
         <div class="container">
 
@@ -320,21 +322,21 @@
 
 
 
-<div id="borrar2">
-    <footer id="footer" role="contentinfo">
-        <div class="container-fluid">
-            <div class="footer-content">
+    <div id="borrar2">
+        <footer id="footer" role="contentinfo">
+            <div class="container-fluid">
+                <div class="footer-content">
 
-                <div class="social">
-                    <a href="#"><i class="icon-facebook3"></i></a>
-                    <a href="#"><i class="icon-instagram2"></i></a>
+                    <div class="social">
+                        <a href="#"><i class="icon-facebook3"></i></a>
+                        <a href="#"><i class="icon-instagram2"></i></a>
 
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-	
-</div>
+        </footer>
+
+    </div>
     <script type="text/javascript" src="js/localstoragePublicacion.js"></script>
     <script type="text/javascript" src="js/producto.js"></script>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
@@ -346,6 +348,8 @@
     <script src="js/jquery.masonry.min.js"></script>
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
+    <!--Icono boopstrap school3-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 </body>
 
