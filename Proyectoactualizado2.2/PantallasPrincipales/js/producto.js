@@ -7,7 +7,7 @@ window.onload = function() {
 
 
         dataType: "json",	
-		
+		//hice un cambio
 		  success: function(data) {
 			//$.each(data, function(i, item) {  
 			  var producto = document.getElementById("producto");
@@ -21,7 +21,7 @@ window.onload = function() {
 			  //var stock = document.getElementById("stock");
 			  //stock.innerHTML=item.stock;
 			  
-			  
+			  //prueba
 			  
 			 //}); 
               	for (x = 0; x < data.comentarios.length; x++) 
@@ -273,7 +273,23 @@ buscador.addEventListener('submit', function(e) {
 
                 var boton = document.createElement('button');
                 boton.className = "text btn";
-                boton.textContent = "Añadir Al Carrito";
+				boton.textContent = "Añadir Al Carrito";
+				boton.id=item.productoID;
+						
+				boton.onclick=function()
+				{
+					$.ajax({
+									 type: "POST",
+									 url: "https://localhost:44310/api/CarritoProducto/InsertarCarritoProductoCliente?carritoID="+localStorage.getItem("carritoID")+"&productoID="+item.productoID,
+									 dataType: "json",
+									 success: function(data) 
+									 {
+										
+															}
+									 
+									 
+									  });
+				}
                 div2.append(boton);
 
                 var div3 = document.createElement('div');
@@ -404,7 +420,23 @@ function FiltrarDescripcion(descripcion)
 
                 var boton = document.createElement('button');
                 boton.className = "text btn";
-                boton.textContent = "Añadir Al Carrito";
+				boton.textContent = "Añadir Al Carrito";
+				boton.id=item.productoID;
+						
+				boton.onclick=function()
+				{
+					$.ajax({
+									 type: "POST",
+									 url: "https://localhost:44310/api/CarritoProducto/InsertarCarritoProductoCliente?carritoID="+localStorage.getItem("carritoID")+"&productoID="+item.productoID,
+									 dataType: "json",
+									 success: function(data) 
+									 {
+										
+															}
+									 
+									 
+									  });
+				}
                 div2.append(boton);
 
                 var div3 = document.createElement('div');
