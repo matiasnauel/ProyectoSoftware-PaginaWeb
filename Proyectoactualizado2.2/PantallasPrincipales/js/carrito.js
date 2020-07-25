@@ -244,8 +244,142 @@ function FiltrarDescripcion(descripcion)
 
     });
 }
+var buscador = document.getElementById('formulario');
+buscador.addEventListener('submit', function(e) {
+	e.preventDefault();
+		
+		
+	var filtro = document.getElementById("search").value;	
+    if(document.getElementById('main')!=null){
+        var mainmaestro= document.getElementById('main');
+        
+        var body =document.getElementById("body");
+        
+         body.removeChild(mainmaestro);
+        }
+        //de aca para abjoe esto si va
+        var main = document.createElement('div');
+        main.className="seccion-top";
+        var ddiv=document.createElement('div');
+        ddiv.className="container-fluid";
+        main.append(ddiv);
+        var dddiv= document.createElement('div');
+        dddiv.className="row";
+        var colm9= document.createElement('div');
+        colm9.className="col-md-9";
+        var divv= document.createElement('div');
+        divv.id="panel";
+        divv.className="panel";
+        colm9.append(divv);
+        dddiv.append(colm9);
+        ddiv.append(dddiv);
+    
+        var mainmaestro2= document.createElement('main');
+        mainmaestro2.id="main";
+        mainmaestro2.className="contenedor seccion";
+        //mainmaestro2.className="MainCarrito";
+    
+        mainmaestro2.append(main);
+        var body =document.getElementById("body");
+        var footer = document.getElementById("footerr");
+        body.insertBefore(mainmaestro2, footer);
+	
+    $.ajax({
+        type: "GET",
+        url: "https://localhost:44398/api/Publicacion/ProductosPublicacionFiltro?filtro=" + filtro,
+
+
+
+
+        dataType: "json",
+
+
+
+
+        success: function(data) {
+            var maestro2 = document.createElement('div');
+            maestro2.className = "col-md-12";
+            maestro2.id = "maestro";
+            var divcontenedor = document.createElement('div');
+            divcontenedor.className = "w3-row-padding";
+            divcontenedor.id = "contenedor";
+            $.each(data, function(i, item) {
+
+
+
+
+
+
+
+                var div = document.createElement('div');
+                div.className = "w3-col s4  w3-hover-shadow  w3-margin-top containere";
+
+
+                var imagen = document.createElement('IMG');
+                imagen.src = 'images/' + item.imagen;
+                imagen.id = item.publicacionID;
+
+                var div2 = document.createElement('div');
+                div2.className = "middle";
+
+                var boton = document.createElement('button');
+                boton.className = "text btn";
+				boton.textContent = "Añadir Al Carrito";
+				boton.id=item.productoID;
+						
+				boton.onclick=function()
+				{
+					$.ajax({
+									 type: "POST",
+									 url: "https://localhost:44310/api/CarritoProducto/InsertarCarritoProductoCliente?carritoID="+localStorage.getItem("carritoID")+"&productoID="+item.productoID,
+									 dataType: "json",
+									 success: function(data) 
+									 {
+										
+															}
+									 
+									 
+									  });
+				}
+                div2.append(boton);
+
+                var div3 = document.createElement('div');
+                div3.className = "w3-center btn-link description-producto";
+
+
+              var a= document.createElement('a');
+					a.onclick=function()
+					{
+						llenarLocalStorage(item.publicacionID);												
+						location.href="producto.html";
+					}
+					var p = document.createElement('p');
+					p.className="titulo";
+					p.textContent = item.nombre + " / "+ "$"+ item.precio;	
+                    a.append(p);			
+					div3.append(a);
+
+                div.append(imagen);
+                div.append(div2);
+                div.append(div3);
+                divcontenedor.append(div);
+                $('#panel').append(maestro2);
+                maestro2.append(divcontenedor);
+
+
+
+
+
+            });
+        }
+
+
+
+    });
+});
 function llenarLocalStorage(publicacionID)
 {
 	localStorage.setItem("publicacionID",parseInt(publicacionID));
 	
 }
+
