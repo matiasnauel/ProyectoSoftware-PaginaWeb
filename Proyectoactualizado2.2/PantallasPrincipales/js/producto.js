@@ -21,7 +21,7 @@ window.onload = function() {
 			  //var stock = document.getElementById("stock");
 			  //stock.innerHTML=item.stock;
 			  
-			  
+			  //prueba
 			  
 			 //}); 
               	for (x = 0; x < data.comentarios.length; x++) 
