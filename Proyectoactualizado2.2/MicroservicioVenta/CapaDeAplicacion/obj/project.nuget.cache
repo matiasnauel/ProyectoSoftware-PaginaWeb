@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KM8xD2EOr6UTlsgEdCd6HK46ZKvVdX4EQfAYfAb32mP0z/9XgEDkIXZRghXOLVJXIuaa2KVzBSrT4pecAeSmXA==",
+  "dgSpecHash": "aqUxhIIDIRTxEHYm6xBZlEePGHJiqxhoajKo4UHr7A5nizhxQmGiTGa+GOvkXiHiXuyf7X0G+bl96A7nFRDOyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\CapaDeAplicacion\\CapaDeAplicacion.csproj",
+  "projectFilePath": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\facun\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Alan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

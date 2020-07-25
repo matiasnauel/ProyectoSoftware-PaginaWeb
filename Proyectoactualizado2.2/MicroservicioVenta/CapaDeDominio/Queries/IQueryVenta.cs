@@ -8,7 +8,6 @@ namespace CapaDeDominio.Queries
 {
     public interface IQueryVenta
     {
-        Task<ClienteDTOs> GetClienteID(int cliente);
-        Task<CarritoDTOs> getCarritoCliente(int carrito);
+      
     }
 }

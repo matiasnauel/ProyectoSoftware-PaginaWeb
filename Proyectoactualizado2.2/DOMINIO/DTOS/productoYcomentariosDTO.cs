@@ -14,6 +14,7 @@ namespace DOMINIO.DTOS
         private string marca;
         private int stock;
         private int publicacionID;
+        private int productoID;
         private List<string> comentarios;
 
 
@@ -26,5 +27,6 @@ namespace DOMINIO.DTOS
         public int Stock { get => stock; set => stock = value; }
         public int PublicacionID { get => publicacionID; set => publicacionID = value; }
         public List<string> Comentarios { get => comentarios; set => comentarios = value; }
+        public int ProductoID { get => productoID; set => productoID = value; }
     }
 }

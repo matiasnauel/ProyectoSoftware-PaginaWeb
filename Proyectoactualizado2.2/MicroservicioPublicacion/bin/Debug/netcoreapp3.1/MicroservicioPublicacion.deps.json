@@ -2439,6 +2439,7 @@
       },
       "APLICACION/1.0.0": {
         "dependencies": {
+          "DATOS": "1.0.0",
           "DOMINIO": "1.0.0",
           "Newtonsoft.Json": "12.0.3"
         },

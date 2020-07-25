@@ -225,10 +225,6 @@
         .cantidad {
             vertical-align: middle!important;
         }
-        
-        .boton-user {
-            font-size: 20px!important;
-        }
     </style>
 
 </head>
@@ -248,21 +244,21 @@
                     <div class="form-group">
                         <input type="search" class="form-control  w3-margin-top" placeholder="Buscar.." id="search">
                     </div>
-                    <button type="submit" class="btn  w3-margin-top"><i class="glyphicon glyphicon-search"></i></button>
+                    <button type="submit" class="btn  w3-margin-top" onclick="Search();"><i class="glyphicon glyphicon-search"></i></button>
 
                 </form>
 
                 <li>
                     <div class="dropdown">
-                        <button class="boton-user"><i class="  fas fa-user-alt w3-margin-top " aria-hidden="true"></i></button>
-                        <div class="dropdown-content" id="dropdow-contentId">
-                            <a href="#" onclick="IniciarSesion();">Iniciar sesión</a>
-
+                        <button><i class="  fa fa-user-o w3-margin-top " aria-hidden="true"></i></button>
+                        <div class="dropdown-content" id="dropdown">
+                            <a href="#">Iniciar sesión</a>
+                            <a href="#">Registrarse</a>
                         </div>
                     </div>
                 </li>
 
-                <li><a href="carrito.html"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true"></i></a></li>
             </ul>
 
 
@@ -293,7 +289,7 @@
                 <div class="panel-body">
 
                     <br>
-                    <table class="table table-striped table-hover" id="contenedor">
+                    <table class="table table-striped table-hover" id ="contenedor">
                         <tr>
                             <th>Producto</th>
                             <th>Nombre</th>
@@ -303,8 +299,8 @@
                             <th>Eliminar</th>
 
                         </tr>
-
-
+                      
+                       
 
 
 
@@ -348,11 +344,10 @@
 
         </div>
     </footer>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!-- <script type="text/javascript" src="js/localstorage.js"></script>
     <script type="text/javascript" src="js/menuprincipal.js"></script>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script> -->
-    <script type="text/javascript" src="js/carrito.js"></script>
+	<script type="text/javascript" src="js/carrito.js"></script>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
     <!-- jQuery -->
     <script src="js/jquery.min.js "></script>

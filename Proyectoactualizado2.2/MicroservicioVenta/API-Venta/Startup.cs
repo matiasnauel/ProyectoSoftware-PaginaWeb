@@ -58,12 +58,8 @@ namespace API_Venta
              options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
             );
 
-            services.AddTransient<IDestinoVentas, DestinoVentaService>();
-            services.AddTransient<IFormaPagoService, FormaPagoService>();
-            services.AddTransient<ITipoEstadoService, TipoEstadoService>();
+          
             services.AddTransient<IVentaService, VentaService>();
-            services.AddTransient<IVentaReclamoService, VentaReclamoService>();
-            services.AddTransient<IEstado, EstadoService>();
             services.AddTransient<IQueryVenta, QueryVenta>();
   
 

@@ -161,8 +161,7 @@
             margin-top: 20px;
             margin-bottom: 15px;
         }
-        
-        .btn-VerMas {
+		.btn-VerMas {
             font-size: 20px;
             text-decoration: none!important;
         }
@@ -179,25 +178,24 @@
 
 
             <ul class="nav navbar-nav navbar-right container-fluid-navbar">
-                <form class="navbar-form navbar-left " id="formulario">
+                <form class="navbar-form navbar-left "  id="formulario">
                     <div class="form-group">
-                        <input type="search" class="form-control  w3-margin-top" placeholder="Buscar.." id="search">
+                        <input type="text" class="form-control  w3-margin-top" placeholder="Buscar.." id="search">
                     </div>
                     <button type="submit" class="btn  w3-margin-top"><i class="glyphicon glyphicon-search"></i></button>
-
                 </form>
 
                 <li>
                     <div class="dropdown">
-                        <button class="boton-user"><i class="  fas fa-user-alt w3-margin-top " aria-hidden="true"></i></button>
-                        <div class="dropdown-content" id="dropdow-contentId">
-                            <a href="#" onclick="IniciarSesion();">Iniciar sesión</a>
-
+                        <button><i class="  fa fa-user-o w3-margin-top " aria-hidden="true"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Iniciar sesión</a>
+                            <a href="#">Registrarse</a>
                         </div>
                     </div>
                 </li>
 
-                <li><a href="carrito.html"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true"></i></a></li>
             </ul>
 
 
@@ -205,14 +203,14 @@
 
         <div class="container w3-margin-top ">
             <ul class="nav  nav-justified w3-center topnav">
-                <li>
-                    <a class="barraClasificadora">Indumentaria Invierno</a>
+                 <li>
+                    <a class="barraClasificadora" onclick='FiltrarDescripcion("Indumentaria Invierno");'>Indumentaria Invierno</a>
                 </li>
                 <li>
-                    <a class="barraClasificadora">Indumentaria Verano</a>
+                    <a class="barraClasificadora" onclick='FiltrarDescripcion("Indumentaria Verano");'>Indumentaria Verano</a>
                 </li>
                 <li>
-                    <a class="barraClasificadora">Indumentaria otoño </a>
+                    <a class="barraClasificadora" onclick='FiltrarDescripcion("Indumentaria otoño");'>Indumentaria otoño </a>
                 </li>
 
             </ul>
@@ -236,7 +234,7 @@
                 <form class="formulario-pedido">
                     <div class="seccionCantidad">
                         <Label class="Txtcantidad" id="stock">CANTIDAD</Label>
-                        <input class="form-control" min="1" type="number">
+                        <input class="form-control" min="1" type="number" id="cantidadProducto">
                         <label class="Txtcantidad">Medios de pago</label>
                         <img src="/images/mercadopago.png" class="media-object" alt="" style="width: 50%;">
 
@@ -249,7 +247,7 @@
                 <br>
                 <br>
                 <div class="seccionBotones contenido-producto">
-                    <button class=" boton  ">AGREGAR AL CARRITO</button>
+                    <button class=" boton  " onclick="AgregarAlCarrito();">AGREGAR AL CARRITO</button>
                 </div>
             </div>
 
@@ -257,11 +255,11 @@
         </div>
 
     </main>
-    <div id="borrar">
-        <section class="comentarios seccion" id="seccionComentarios">
+	<div id="borrar">
+    <section class="comentarios seccion" id="seccionComentarios">
 
-            <div class="container">
-                <label class="pull-right"> Ordenar por   <div class="dropdown">
+        <div class="container">
+            <label class="pull-right"> Ordenar por   <div class="dropdown">
                 <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
                   <span class="caret"></span></button>
                 <ul class="dropdown-menu">
@@ -270,48 +268,48 @@
                 </ul>
             </div></label>
 
-                <h2> Comentarios</h2>
+            <h2>  Comentarios</h2>
 
-                <hr>
-                <div class="row">
-                    <div class="col-sm-1">
-                        <div class="media-left">
-                            <img src="images/fotoperfil.jpg" class="img-rounded" alt="Cinque Terre" class="media-object" style="width:60px">
+            <hr>
+            <div class="row">
+                <div class="col-sm-1">
+                    <div class="media-left">
+                        <img src="images/fotoperfil.jpg" class="img-rounded" alt="Cinque Terre" class="media-object" style="width:60px">
 
-                        </div>
                     </div>
-                    <div class="col-sm-11">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <textarea name="text" class="form-control" placeholder="Agregar un  Comentario.." id="comentario"></textarea>
-
-
-                            </div>
-                        </div>
-                        <button class="btn btn-primary pull-right " onclick="comentar();">Comentar</button>
-                    </div>
-
                 </div>
-                <hr>
+                <div class="col-sm-11">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <textarea name="text" class="form-control" placeholder="Agregar un  Comentario.." id="comentario"></textarea>
+
+
+                        </div>
+                    </div>
+                    <button class="btn btn-primary pull-right " onclick="comentar();">Comentar</button>
+                </div>
+
             </div>
+            <hr>
+        </div>
 
 
 
 
 
-            <article class="container seccion" id="secciones">
+        <article class="container seccion" id="secciones">
+            
+          
 
 
-
-
-            </article>
-
-            <div class="container">
-                <button class="btn btn-link btn-VerMas" onclick="VerMas();">Ver más comentarios </button>
-            </div>
-        </section>
-    </div>
-
+        </article>
+		
+<div class="container">
+<button class="btn btn-link btn-VerMas" onclick="VerMas();">Ver más comentarios </button>
+</div>
+    </section>
+	</div>
+	
     <div class="container-fluid">
         <div class="container">
 
@@ -321,7 +319,9 @@
 
 
 
-    <footer id="fh5co-footer" role="contentinfo">
+
+<div id="borrar2">
+    <footer id="footer" role="contentinfo">
         <div class="container-fluid">
             <div class="footer-content">
 
@@ -333,36 +333,8 @@
             </div>
         </div>
     </footer>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <!--Boopstrap 4 links-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <!--FIREBASE SCRIPT-->
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
-    <!--Add SDKs for Firebase  autentication -->
-    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-       https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
-    <!--Script Connection Firebase-->
-    <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyByEtWI3BOnbr1K2cjrpa3eKOaQx7AXnGI",
-            authDomain: "usuario-5093e.firebaseapp.com",
-            databaseURL: "https://usuario-5093e.firebaseio.com",
-            projectId: "usuario-5093e",
-            storageBucket: "usuario-5093e.appspot.com",
-            messagingSenderId: "638040248867",
-            appId: "1:638040248867:web:574ef1ae221e7202ee9796",
-            measurementId: "G-2MHWFFY2J5"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-        const auth = firebase.auth();
-    </script>
+	
+</div>
     <script type="text/javascript" src="js/localstoragePublicacion.js"></script>
     <script type="text/javascript" src="js/producto.js"></script>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>

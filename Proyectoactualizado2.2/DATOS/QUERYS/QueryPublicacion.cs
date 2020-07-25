@@ -218,6 +218,7 @@ namespace DATOS.QUERYS
                 variable.PublicacionID = publicacionID;
                 variable.Descripcion = posts.Descripcion;
                 variable.Imagen = posts.Imagen;
+                variable.ProductoID = posts.ProductoID;
 
 
                 return variable;
@@ -294,6 +295,43 @@ namespace DATOS.QUERYS
 
 
             return posts;
+        }
+
+        public async Task<List<ProductoEspecificoDto>> TraerProductosPublicacionesPanel()
+        {
+            var db = new QueryFactory(conexion, SqlKataCompiler);
+            var Productos = db.Query("Publicaciones").
+            Select("ProductoID").Get<int>().ToList();
+            
+            var Publicaciones = db.Query("Publicaciones").
+            Select("ID").Get<int>().ToList();
+
+
+            List<ProductoEspecificoDto> posts = null;
+           
+            JsonProductoDTO jsonDTO = new JsonProductoDTO();
+            jsonDTO.productosID = Productos;
+            jsonDTO.publicacionesID = Publicaciones;
+
+           
+
+            string url = "https://localhost:44370/api/Producto/ProductosID";
+            using (var httpClient = new HttpClient())
+            {
+                var json = Newtonsoft.Json.JsonConvert.SerializeObject(jsonDTO, Formatting.None);
+                var data = new System.Net.Http.StringContent(json, Encoding.UTF8, "application/json");
+
+                var result = await httpClient.PostAsync(url, data);
+                string resultado = result.Content.ReadAsStringAsync().Result;
+                posts = JsonConvert.DeserializeObject<List<ProductoEspecificoDto>>(resultado);
+
+                                
+
+            }
+
+
+            return posts;
+
         }
     }
 }

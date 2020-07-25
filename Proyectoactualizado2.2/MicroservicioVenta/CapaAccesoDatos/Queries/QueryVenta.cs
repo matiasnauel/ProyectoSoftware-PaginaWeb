@@ -24,28 +24,8 @@ namespace CapaAccesoDatos.Queries
 
 
         //buscar un carrito por su id
-        public async Task<CarritoDTOs> getCarritoCliente(int carrito)
-        {
-            
-            var url = "https://localhost:44342/api/Carrito?carrito=" + carrito;
-            using (var http = new HttpClient())
-            {
-                var response = await http.GetStringAsync(url);
-                var get = JsonConvert.DeserializeObject<CarritoDTOs>(response);
-                return get;
-            }
-        }
+        
         //buscar un cliente por su idd
-        public async Task<ClienteDTOs> GetClienteID(int cliente)
-        {
-           
-            var url = "https://localhost:44368/api/Cliente?cliente="+cliente;
-            using (var http = new HttpClient())
-            {
-                var response = await http.GetStringAsync(url);
-                var get = JsonConvert.DeserializeObject<ClienteDTOs>(response);
-                return get;
-            }
-        }
+       
     }
 }

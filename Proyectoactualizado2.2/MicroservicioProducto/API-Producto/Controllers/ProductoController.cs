@@ -194,6 +194,18 @@ namespace API_Producto.Controllers
         }
 
 
+        [Route("InsertarProductoPanel")]
+        [HttpPost]
+        public IActionResult InsertarProductoPanel(InsertoProductoPanelDto producto)
+        {
+
+            return new JsonResult(servicio.InsertarProductoPanel(producto).Result);
+
+            
+           
+        }
+
+
 
     }
 }

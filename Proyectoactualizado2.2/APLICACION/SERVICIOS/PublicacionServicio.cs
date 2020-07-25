@@ -6,6 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using System.Linq;
+using DATOS;
 
 namespace APLICACION.SERVICIOS
 {
@@ -13,7 +15,7 @@ namespace APLICACION.SERVICIOS
     public interface IPublicacionServicio 
     {
 
-       Publicacion CrearPublicacion(int productoID);
+       Publicacion CrearPublicacion(InsertarPublicacionDto objeto);
         List<Publicacion> GetPublicaciones();
         Publicacion GetPublicacionesID(int publicacionID);
         Task<ProductoEspecificoDto> GetProductoID(int publicacionID);
@@ -28,25 +30,44 @@ namespace APLICACION.SERVICIOS
         Task<List<ProductoEspecificoDto>> getProductosPublicacioens(int CANTIDAD);
 
         public Task<productoYcomentariosDTO> ProductoYcomentariosDePublicacion(int publicacionID, int offset);
+
+        public Task<List<ProductoEspecificoDto>>TraerProductosPublicacionesPanel();
+
+        public bool BorrarPublicacion(int publicacionID);
     }
     public class PublicacionServicio : IPublicacionServicio
     {
 
         private readonly IGenericsRepository repository;
         private readonly IQueryPublicacion query;
+        private readonly Contexto contexto;
 
-        public PublicacionServicio(IGenericsRepository repository, IQueryPublicacion query)
+        public PublicacionServicio(IGenericsRepository repository, IQueryPublicacion query,Contexto contexto)
         {
             this.repository = repository;
             this.query = query;
+            this.contexto = contexto;
         }
 
+        public bool BorrarPublicacion(int publicacionID)
+        {
+            bool respuesta = false;
+            var publicacion = (from x in contexto.Publicaciones where x.ID == publicacionID select x).FirstOrDefault<Publicacion>();
+            if (publicacion!=null) 
+            {
+                repository.Delete<Publicacion>(publicacion);
+                respuesta = true;
 
-        public Publicacion CrearPublicacion(int productoID)
+            }
+            return respuesta;
+
+        }
+
+        public Publicacion CrearPublicacion(InsertarPublicacionDto objeto)
         {
             Publicacion publicacion = new Publicacion
             {
-                ProductoID = productoID
+                ProductoID = objeto.productoID
             };
             return repository.Agregar<Publicacion>(publicacion);
         }
@@ -96,6 +117,11 @@ namespace APLICACION.SERVICIOS
         public Task<productoYcomentariosDTO> ProductoYcomentariosDePublicacion(int publicacionID, int offset)
         {
             return query.ProductoYcomentariosDePublicacion(publicacionID,offset);
+        }
+
+        public Task<List<ProductoEspecificoDto>> TraerProductosPublicacionesPanel()
+        {
+            return query.TraerProductosPublicacionesPanel();
         }
     }
 }

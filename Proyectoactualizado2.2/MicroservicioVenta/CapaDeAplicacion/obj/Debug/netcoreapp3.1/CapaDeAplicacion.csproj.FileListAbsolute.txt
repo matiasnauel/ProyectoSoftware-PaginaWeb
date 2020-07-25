@@ -24,3 +24,15 @@ C:\Users\facun\Source\Repos\matiasnauel\API-VENTA\CapaDeAplicacion\obj\Debug\net
 C:\Users\facun\Source\Repos\matiasnauel\API-VENTA\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CopyComplete
 C:\Users\facun\Source\Repos\matiasnauel\API-VENTA\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.dll
 C:\Users\facun\Source\Repos\matiasnauel\API-VENTA\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.pdb
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.deps.json
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.dll
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.pdb
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeDominio.dll
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csprojAssemblyReference.cache
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.AssemblyInfoInputs.cache
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.AssemblyInfo.cs
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CopyComplete
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.dll
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.pdb

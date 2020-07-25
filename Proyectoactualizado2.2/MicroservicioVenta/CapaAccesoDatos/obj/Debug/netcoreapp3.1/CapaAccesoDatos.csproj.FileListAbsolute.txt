@@ -32,3 +32,20 @@ C:\Users\facun\Source\Repos\matiasnauel\API-VENTA\CapaAccesoDatos\obj\Debug\netc
 C:\Users\facun\Source\Repos\matiasnauel\API-VENTA\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.dll
 C:\Users\facun\Source\Repos\matiasnauel\API-VENTA\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.pdb
 C:\Users\facun\Source\Repos\matiasnauel\API-VENTA\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.genruntimeconfig.cache
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.deps.json
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.runtimeconfig.json
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.runtimeconfig.dev.json
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.dll
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.pdb
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaDeAplicacion.dll
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaDeDominio.dll
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaDeAplicacion.pdb
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.csprojAssemblyReference.cache
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.AssemblyInfo.cs
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.csproj.CopyComplete
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.dll
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.pdb
+C:\Users\Alan\Pictures\INFORME METODOLOGIA\ProyectoSoftware-PaginaWeb-master\Proyectoactualizado2.2\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.genruntimeconfig.cache

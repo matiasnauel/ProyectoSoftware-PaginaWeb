@@ -3,6 +3,7 @@ using CapaDominioProductos.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CapaDominioProductos.Querys
 {
@@ -18,5 +19,7 @@ namespace CapaDominioProductos.Querys
 
         List<ProductoEspecificoDto> ProductosPublicacionesFiltroDescripcion(JsonProductoFiltroDto json);
         List<ProductoEspecificoDto> ProductosPublicacionesFiltroCategoria(JsonProductoFiltroDto json);
+
+        Task<Producto> InsertarProductoPanel(InsertoProductoPanelDto producto);
     }
 }

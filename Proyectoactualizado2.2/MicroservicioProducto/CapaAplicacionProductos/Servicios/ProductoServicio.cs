@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CapaAplicacionProductos.Servicios
 {
@@ -22,6 +23,8 @@ namespace CapaAplicacionProductos.Servicios
         List<ProductoEspecificoDto> ProductosPublicacionesFiltroDescripcion(JsonProductoFiltroDto json);
         List<ProductoEspecificoDto> ProductosPublicacionesFiltroCategoria(JsonProductoFiltroDto json);
         public ProductosCantidadValorDTO ProductosValorCarritoCliente(ValorCarritoDTO valor);
+
+        Task<Producto> InsertarProductoPanel(InsertoProductoPanelDto producto);
     }
     public class ProductoServicio: IProductoService
     {
@@ -105,6 +108,11 @@ namespace CapaAplicacionProductos.Servicios
         public List<ProductoEspecificoDto> ProductosPublicacionesFiltroCategoria(JsonProductoFiltroDto json)
         {
             return _Query.ProductosPublicacionesFiltroCategoria(json);
+        }
+
+        public Task<Producto> InsertarProductoPanel(InsertoProductoPanelDto producto)
+        {
+            return _Query.InsertarProductoPanel(producto);
         }
     }
 }

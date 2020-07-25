@@ -2,6 +2,7 @@
 using CapaDominioProductos.DTOs;
 using CapaDominioProductos.Entidades;
 using CapaDominioProductos.Querys;
+using Newtonsoft.Json;
 using SqlKata.Compilers;
 using SqlKata.Execution;
 using System;
@@ -9,7 +10,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CapaAccesoDatosProductos.Querys
 {
@@ -305,6 +308,97 @@ namespace CapaAccesoDatosProductos.Querys
 
 
             return productos;
+        }
+
+        public async Task<Producto> InsertarProductoPanel(InsertoProductoPanelDto producto)
+        {
+            var db = new QueryFactory(connection, compiler);
+            ImagenProducto imagen = new ImagenProducto()
+            {
+                Nombre = producto.imagen
+            };
+            PrecioProducto precio = new PrecioProducto()
+            {
+                Precioreal=producto.precioreal,
+                Precioventa=producto.precioventa,
+                Fecha=DateTime.Now
+            };
+            Marca marca = new Marca()
+            {
+                Nombre=producto.marca
+            };
+            repository.Agregar<ImagenProducto>(imagen);
+            repository.Agregar<PrecioProducto>(precio);
+            repository.Agregar<Marca>(marca);
+           
+            var categoriaID = db.Query("categorias").
+                Select("Id").
+                Where("Descripcion", "=", producto.categoria).FirstOrDefault<int>();
+
+            var imagenID = db.Query("imagenproducto").
+                Select("Id").
+                Where("nombre", "=", producto.imagen).FirstOrDefault<int>();
+
+            var precioID = db.Query("precioproducto").
+                Select("Id").
+                Where("PrecioVenta", "=", producto.precioventa)
+                .Where("PrecioReal", "=", producto.precioreal).
+                FirstOrDefault<int>();
+
+            var marcaID = db.Query("marca").
+                Select("Id").
+                Where("Nombre","=",producto.marca).
+                FirstOrDefault<int>();
+
+
+            Producto objeto = new Producto()
+            {
+                Nombre=producto.nombre,
+                Descripcion=producto.descripcion,
+                ImagenID=imagenID,
+                PrecioID=precioID,
+                CategoriaID=categoriaID,
+                MarcaID=marcaID,
+                Stock=producto.stock
+            };
+            repository.Agregarr<Producto>(objeto);
+
+            var ProductoID = db.Query("productos").
+             Select("Id").
+             Where("Nombre", "=", objeto.Nombre).
+              Where("CategoriaID", "=", objeto.CategoriaID).
+               Where("PrecioID", "=", objeto.PrecioID).
+                Where("MarcaID", "=", objeto.MarcaID).
+                 Where("Stock", "=", objeto.Stock).
+                  Where("Descripcion", "=", objeto.Descripcion).
+                   FirstOrDefault<int>();
+
+            InsertarPublicacionDto avg = new InsertarPublicacionDto()
+            {
+                productoID=ProductoID
+            };
+
+
+
+            string url = "https://localhost:44398/api/Publicacion/InsertarPublicacion";
+            using (var httpClient = new HttpClient())
+            {
+                var json = Newtonsoft.Json.JsonConvert.SerializeObject(avg, Formatting.None);
+                var data = new System.Net.Http.StringContent(json, Encoding.UTF8, "application/json");
+
+                var result = await httpClient.PostAsync(url,data);
+                string resultado = result.Content.ReadAsStringAsync().Result;
+                //posts = JsonConvert.DeserializeObject<List<ProductoEspecificoDto>>(resultado);
+
+
+
+            }
+
+
+            return objeto;
+
+
+
         }
     }
 }

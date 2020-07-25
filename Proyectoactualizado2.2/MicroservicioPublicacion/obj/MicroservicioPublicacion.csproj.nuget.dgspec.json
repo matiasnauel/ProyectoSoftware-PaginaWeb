@@ -27,6 +27,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj": {
+                "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj"
+              },
               "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj": {
                 "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj"
               }

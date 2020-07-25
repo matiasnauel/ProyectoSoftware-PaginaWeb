@@ -52,6 +52,10 @@ namespace API_Producto
             {
                 return new SqlConnection(connectionString);
             });
+            services.AddControllersWithViews()
+.AddNewtonsoftJson(options =>
+options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
             services.AddTransient<IGenericsRepository, GenericsRepository>();
             services.AddTransient<IProductoService, ProductoServicio>();
             services.AddTransient<IPrecioProductoService, PrecioProductoService>();

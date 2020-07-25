@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\facun\\.nuget\\packages\\": {}
+    "C:\\Users\\Alan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\CapaDeDominio\\CapaDeDominio.csproj",
+      "projectUniqueName": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj",
       "projectName": "CapaDeDominio",
-      "projectPath": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\CapaDeDominio\\CapaDeDominio.csproj",
-      "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\CapaDeDominio\\obj\\",
+      "projectPath": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj",
+      "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\CapaDeDominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

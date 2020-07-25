@@ -29,5 +29,7 @@ namespace DOMINIO.QUERYS
         public Task<List<ProductoEspecificoDto>> ProductosPublicacionFiltroDescripcion(string filtro);
         public Task<List<ProductoEspecificoDto>> ProductosPublicacionFiltroCategoria(string filtro);
 
+        public Task<List<ProductoEspecificoDto>> TraerProductosPublicacionesPanel();
+
     }
 }

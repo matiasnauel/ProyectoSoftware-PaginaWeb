@@ -8017,19 +8017,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\facun\\.nuget\\packages\\": {}
+    "C:\\Users\\Alan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\API-Venta\\API-Venta.csproj",
+      "projectUniqueName": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\API-Venta\\API-Venta.csproj",
       "projectName": "API-Venta",
-      "projectPath": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\API-Venta\\API-Venta.csproj",
-      "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\API-Venta\\obj\\",
+      "projectPath": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\API-Venta\\API-Venta.csproj",
+      "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\API-Venta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8042,11 +8042,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\CapaAccesoDatos\\CapaAccesoDatos.csproj": {
-              "projectPath": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\CapaAccesoDatos\\CapaAccesoDatos.csproj"
+            "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj": {
+              "projectPath": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj"
             },
-            "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
-              "projectPath": "C:\\Users\\facun\\Source\\Repos\\matiasnauel\\API-VENTA\\CapaDeAplicacion\\CapaDeAplicacion.csproj"
+            "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
+              "projectPath": "C:\\Users\\Alan\\Pictures\\INFORME METODOLOGIA\\ProyectoSoftware-PaginaWeb-master\\Proyectoactualizado2.2\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj"
             }
           }
         }

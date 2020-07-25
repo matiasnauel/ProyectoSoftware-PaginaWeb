@@ -13,14 +13,9 @@ namespace CapaDeAplicacion.Services
 
     public interface IVentaService
     {
-        Venta CrearVenta(VentaDTOs venta);
      
-        ICollection<Venta> GetVenta();
       
-        Task<ClienteDTOs> GetClienteID(int cliente);
-
-        Venta GetId(int id);
-        Task<CarritoDTOs> getCarritoCliente(int carrito);
+      
     }
     public class VentaService : IVentaService
     {
@@ -38,26 +33,7 @@ namespace CapaDeAplicacion.Services
             this.query = query;
         }
 
-        public Venta CrearVenta(VentaDTOs venta)
-        {
-                var EstadoNavigator = _repository.GetBy<Estado>(venta.Id_estadoventa);
-                var FormaPagoNavigator = _repository.GetBy<FormaPago>(venta.Id_tomapago);
-                var DestinoVentaNavigator = _repository.GetBy<DestinoVenta>(venta.Id_destinoventa);
-                var entity = new Venta()
-                {
-                    Id_cliente = venta.Id_cliente,
-                    Id_carrito = venta.Id_carrito,
-                    FechaVenta = DateTime.Now,
-                    Id_destinoventa = venta.Id_destinoventa,
-                    Id_tomapago = venta.Id_tomapago,
-                    Id_estadoventa = venta.Id_estadoventa,
-                    EstadoVentaNavigator = EstadoNavigator,
-                    FormaPagoNavigator = FormaPagoNavigator,
-                    DestinoVentaNavigator = DestinoVentaNavigator
-                };
-                _repository.Add(entity);
-                return entity;
-        }
+       
 
         public ICollection<Venta> GetVenta()
         {
@@ -69,15 +45,7 @@ namespace CapaDeAplicacion.Services
             return _repository.GetBy<Venta>(id);
         }
 
-        public Task<ClienteDTOs> GetClienteID(int cliente)
-        {
-           return  query.GetClienteID(cliente);
-        }
-
-        public Task<CarritoDTOs> getCarritoCliente(int carrito)
-        {
-            return query.getCarritoCliente(carrito);
-        }
+     
 
      
     }

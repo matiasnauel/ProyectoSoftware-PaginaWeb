@@ -21,3 +21,5 @@ C:\Users\Alan\Documents\disco viejo\APLICACION\obj\Debug\netcoreapp3.1\APLICACIO
 C:\Users\Alan\Documents\disco viejo\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.dll
 C:\Users\Alan\Documents\disco viejo\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.pdb
 C:\Users\Alan\Documents\disco viejo\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Documents\disco viejo\APLICACION\bin\Debug\netcoreapp3.1\DATOS.dll
+C:\Users\Alan\Documents\disco viejo\APLICACION\bin\Debug\netcoreapp3.1\DATOS.pdb

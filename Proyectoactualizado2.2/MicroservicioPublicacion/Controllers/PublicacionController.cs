@@ -23,11 +23,11 @@ namespace MicroservicioPublicacion.Controllers
         }
         [Route("InsertarPublicacion")]
         [HttpPost]
-        public IActionResult Post(int productoID)
+        public IActionResult Post(InsertarPublicacionDto objeto)
         {
             try
             {
-                return new JsonResult(service.CrearPublicacion(productoID)) { StatusCode = 201 };
+                return new JsonResult(service.CrearPublicacion(objeto)) { StatusCode = 201 };
 
             }
             catch (System.Exception e)
@@ -186,7 +186,32 @@ namespace MicroservicioPublicacion.Controllers
 
         }
 
+        [Route("TraerProductosPublicacionesPanel")]
+        [HttpGet]
+        public IActionResult TraerProductosPublicacionesPanel()
+        {
 
+            return new JsonResult(service.TraerProductosPublicacionesPanel().Result);
+
+
+
+        }
+
+        [Route("BorrarPublicacion")]
+        [HttpPost]
+        public IActionResult BorrarPublicacion(int publicacionID)
+        {
+            try
+            {
+                return new JsonResult(service.BorrarPublicacion(publicacionID)) { StatusCode = 201 };
+
+            }
+            catch (System.Exception e)
+            {
+                return BadRequest(e.Message);
+
+            }
+        }
 
 
 
