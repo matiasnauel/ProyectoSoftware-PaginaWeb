@@ -113,3 +113,130 @@ function cancelar()
 	
 	
 }
+
+
+function FiltrarDescripcion(descripcion)
+{
+	if(document.getElementById('main')!=null){
+	var mainmaestro= document.getElementById('main');
+	var aprendizdelmain =document.getElementById('maestro');
+	mainmaestro.remove(aprendizdelmain);	 
+	}
+	//de aca para abjoe esto si va
+    var main = document.createElement('main');
+	main.className="seccion-top";
+	var ddiv=document.createElement('div');
+	ddiv.className="container-fluid";
+	main.append(ddiv);
+	var dddiv= document.createElement('div');
+	dddiv.className="row";
+    var divv= document.createElement('div');
+	divv.id="panel";
+	divv.className="panel";
+	dddiv.append(divv);
+	ddiv.append(dddiv);
+	var maestro2=document.createElement('main');
+	maestro2.className="contenedor seccion";
+	maestro2.id="contenedorMaestro";
+	maestro2.append(main);
+	var mainmaestro2= document.createElement('main');
+	mainmaestro2.id="main";
+	mainmaestro2.className="MainCarrito";
+
+	mainmaestro2.append(maestro2);
+
+	$('body').append(mainmaestro2);
+	
+    $.ajax({
+        type: "GET",
+        url: "https://localhost:44398/api/Publicacion/ProductosPublicacionFiltroDescripcion?filtro="+descripcion,
+
+
+
+
+        dataType: "json",
+
+
+
+
+        success: function(data) {
+            var maestro2 = document.createElement('div');
+            maestro2.className = "col-md-12";
+            maestro2.id = "maestro";
+            var divcontenedor = document.createElement('div');
+            divcontenedor.className = "w3-row-padding";
+            divcontenedor.id = "contenedor";
+            $.each(data, function(i, item) {
+
+
+
+
+
+
+
+                var div = document.createElement('div');
+                div.className = "w3-col s4  w3-hover-shadow  w3-margin-top containere";
+
+
+                var imagen = document.createElement('IMG');
+                imagen.src = 'images/' + item.imagen;
+                imagen.id = item.publicacionID;
+
+                var div2 = document.createElement('div');
+                div2.className = "middle";
+
+                var boton = document.createElement('button');
+                boton.className = "text btn";
+				boton.textContent = "Añadir Al Carrito";
+				boton.id=item.productoID;
+						
+				boton.onclick=function()
+				{
+					$.ajax({
+									 type: "POST",
+									 url: "https://localhost:44310/api/CarritoProducto/InsertarCarritoProductoCliente?carritoID="+localStorage.getItem("carritoID")+"&productoID="+item.productoID,
+									 dataType: "json",
+									 success: function(data) 
+									 {
+										
+															}
+									 
+									 
+									  });
+				}
+                div2.append(boton);
+
+                var div3 = document.createElement('div');
+                div3.className = "w3-center btn-link description-producto";
+
+
+              var a= document.createElement('a');
+					a.onclick=function()
+					{
+						llenarLocalStorage(item.publicacionID);												
+						location.href="producto.html";
+					}
+					var p = document.createElement('p');
+					p.className="titulo";
+					p.textContent = item.nombre + " / "+ "$"+ item.precio;	
+                    a.append(p);			
+					div3.append(a);
+
+                div.append(imagen);
+                div.append(div2);
+                div.append(div3);
+                divcontenedor.append(div);
+                $('#panel').append(maestro2);
+                maestro2.append(divcontenedor);
+
+
+
+
+
+            });
+        }
+
+
+
+    });
+}
