@@ -27,7 +27,7 @@ googleBoton.addEventListener('click', e => {
             var Uids = user.uid;
 
             user.getIdToken().then(function(data) {
-                //  loginAPIGoogle(data, Uids);
+                loginAPIGoogle(data, Uids);
 
 
             });
