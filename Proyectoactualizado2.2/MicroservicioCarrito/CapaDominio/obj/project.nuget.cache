@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SnEeh5kbEVbWtz0AMxTqd6Fitg0e1QpNLY9pxoSy7oDPzIXfwBOEuza3nknd2Q+XlfdG2j82GgHMHsH/lqwKIw==",
+  "dgSpecHash": "KiqXerosyZpDhENOd04S1LiwCGfw9RqM0qmDCkoNWWoL/4UmsZ/Tzlt6LaM3gr2NQ+UANP6LiGOZOUM7G++EUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Alan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5zHEU3xQEl6iAqO4/Z5fY1CfstZki93awmVUWmpKwn/dyqPjb8sFt94nsNC9/a4LrjFXXKJHTHp49Tu5crkT/A==",
+  "dgSpecHash": "0aWN7J/wmVaaBuq9SaaIBnybZo9/941VAFSc/6OU0Iw3wV6Q+AlPxfhSOto8wh+rhePIl320S7R1stOlVrNvvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\APLICACION.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\APLICACION.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
     "C:\\Users\\Alan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

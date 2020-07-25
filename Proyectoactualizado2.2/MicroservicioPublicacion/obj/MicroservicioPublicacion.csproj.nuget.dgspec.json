@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alan\\Documents\\disco viejo\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj": {}
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\APLICACION.csproj": {
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\APLICACION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\APLICACION.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\APLICACION.csproj",
         "projectName": "APLICACION",
-        "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\APLICACION.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\APLICACION.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj": {
-                "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj"
+              "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj"
               },
-              "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj"
+              "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\DOMINIO.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\DOMINIO.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj": {
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj",
         "projectName": "DATOS",
-        "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj"
+              "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\DOMINIO.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\DOMINIO.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj": {
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\DOMINIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\DOMINIO.csproj",
         "projectName": "DOMINIO",
-        "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\DOMINIO.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,14 +207,14 @@
         }
       }
     },
-    "C:\\Users\\Alan\\Documents\\disco viejo\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj": {
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\Documents\\disco viejo\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
         "projectName": "MicroservicioPublicacion",
-        "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\Documents\\disco viejo\\MicroservicioPublicacion\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioPublicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -230,11 +230,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\APLICACION.csproj": {
-                "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\APLICACION.csproj"
+              "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\APLICACION.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\APLICACION.csproj"
               },
-              "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj": {
-                "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj"
+              "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj"
               }
             }
           }

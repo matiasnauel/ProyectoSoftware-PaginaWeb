@@ -118,33 +118,36 @@ function FiltrarDescripcion(descripcion)
 {
 	if(document.getElementById('main')!=null){
 	var mainmaestro= document.getElementById('main');
-	var aprendizdelmain =document.getElementById('maestro');
-	mainmaestro.remove(aprendizdelmain);	 
+    
+    var body =document.getElementById("body");
+    
+	 body.removeChild(mainmaestro);
 	}
 	//de aca para abjoe esto si va
-    var main = document.createElement('main');
+    var main = document.createElement('div');
 	main.className="seccion-top";
 	var ddiv=document.createElement('div');
 	ddiv.className="container-fluid";
 	main.append(ddiv);
 	var dddiv= document.createElement('div');
-	dddiv.className="row";
+    dddiv.className="row";
+    var colm9= document.createElement('div');
+    colm9.className="col-md-9";
     var divv= document.createElement('div');
 	divv.id="panel";
-	divv.className="panel";
-	dddiv.append(divv);
+    divv.className="panel";
+    colm9.append(divv);
+    dddiv.append(colm9);
 	ddiv.append(dddiv);
-	var maestro2=document.createElement('main');
-	maestro2.className="contenedor seccion";
-	maestro2.id="contenedorMaestro";
-	maestro2.append(main);
+
 	var mainmaestro2= document.createElement('main');
 	mainmaestro2.id="main";
-	mainmaestro2.className="MainCarrito";
+	//mainmaestro2.className="MainCarrito";
 
-	mainmaestro2.append(maestro2);
-
-	$('body').append(mainmaestro2);
+	mainmaestro2.append(main);
+    var body =document.getElementById("body");
+    var footer = document.getElementById("footerr");
+	body.insertBefore(mainmaestro2, footer);
 	
     $.ajax({
         type: "GET",

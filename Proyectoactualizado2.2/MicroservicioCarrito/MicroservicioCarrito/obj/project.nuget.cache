@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n0RsHW1Yg7KPNa9T70oV9DViYLOB0DBvqEO+2lenr1k7YuOWiOif0AARNqbzINVCklAI7Sdwex+LxLtaw8/VxA==",
+  "dgSpecHash": "nc9VXx4LHWKFzn1oWPChc3DInTbEE8CgZJwnMjYPIdc/HkTMUoa3LRhqU9UedXbGlr9PxcuoSb0LjnSFesdiiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
     "C:\\Users\\Alan\\.nuget\\packages\\humanizer.core\\2.6.2\\humanizer.core.2.6.2.nupkg.sha512",

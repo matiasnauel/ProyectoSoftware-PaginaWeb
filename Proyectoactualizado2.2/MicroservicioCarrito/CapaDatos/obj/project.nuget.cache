@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pG0ASOJ+uC1azNaSsXNvtNsfMxgc51R/PyNU/aPdur+y+PEQtfYuH8tISlg1RUsvASZbQtXwimm9qXGJvIYRTw==",
+  "dgSpecHash": "hzrzXiQ/ePgoyWYqkva2JR8rzpb0FBO4+N8OWjBQ1Mqia7TubcVPBsiwz31jOUxjSAN9kbc9TLBei19lDnnoFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
     "C:\\Users\\Alan\\.nuget\\packages\\humanizer.core\\2.6.2\\humanizer.core.2.6.2.nupkg.sha512",

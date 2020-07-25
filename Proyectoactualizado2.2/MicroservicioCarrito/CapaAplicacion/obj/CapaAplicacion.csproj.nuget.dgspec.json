@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {}
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
         "projectName": "CapaAplicacion",
-        "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaAplicacion\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaAplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
+              "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
               },
-              "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
-                "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
+              "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
-                "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
+              "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+    "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
         "projectName": "CapaDominio",
-        "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",

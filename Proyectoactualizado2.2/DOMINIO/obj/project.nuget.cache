@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hBt9F9YazODCK/ns3asOCYr54crABf8BNVmzEPyIpTpsJPjn4JMh+Kk+EOpvUy4v/ogjgom1+uo1nX+9z+USVg==",
+  "dgSpecHash": "EhcZu4MbpjdGzpMFniVy/vjCmo8TghNLK7WzG3V0NE8kYefGcpnIeSLi+dWHHZ6uOqQTvhlOLXOcjiE15WjLYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan\\Documents\\disco viejo\\DOMINIO\\DOMINIO.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DOMINIO\\DOMINIO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Alan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

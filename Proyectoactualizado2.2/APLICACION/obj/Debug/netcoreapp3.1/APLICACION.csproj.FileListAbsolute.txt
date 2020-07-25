@@ -23,3 +23,17 @@ C:\Users\Alan\Documents\disco viejo\APLICACION\obj\Debug\netcoreapp3.1\APLICACIO
 C:\Users\Alan\Documents\disco viejo\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csproj.CoreCompileInputs.cache
 C:\Users\Alan\Documents\disco viejo\APLICACION\bin\Debug\netcoreapp3.1\DATOS.dll
 C:\Users\Alan\Documents\disco viejo\APLICACION\bin\Debug\netcoreapp3.1\DATOS.pdb
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\bin\Debug\netcoreapp3.1\APLICACION.deps.json
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\bin\Debug\netcoreapp3.1\APLICACION.dll
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\bin\Debug\netcoreapp3.1\APLICACION.pdb
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\bin\Debug\netcoreapp3.1\DATOS.dll
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\bin\Debug\netcoreapp3.1\DOMINIO.dll
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\bin\Debug\netcoreapp3.1\DATOS.pdb
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\bin\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csprojAssemblyReference.cache
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.AssemblyInfoInputs.cache
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.AssemblyInfo.cs
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csproj.CopyComplete
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.dll
+C:\xampp\htdocs\repositorio2\ProyectoSoftware-PaginaWeb\Proyectoactualizado2.2\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.pdb

@@ -9350,11 +9350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
       "projectName": "MicroservicioCarrito",
-      "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
+      "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
       "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\MicroservicioCarrito\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\MicroservicioCarrito\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9370,11 +9370,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
-              "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj"
+            "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj"
             },
-            "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
-              "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
+            "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
             }
           }
         }

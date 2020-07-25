@@ -9325,11 +9325,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan\\Documents\\disco viejo\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
       "projectName": "MicroservicioPublicacion",
-      "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+      "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
       "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan\\Documents\\disco viejo\\MicroservicioPublicacion\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioPublicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9345,11 +9345,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\APLICACION.csproj": {
-              "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\APLICACION\\APLICACION.csproj"
+            "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\APLICACION.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\APLICACION\\APLICACION.csproj"
             },
-            "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj": {
-              "projectPath": "C:\\Users\\Alan\\Documents\\disco viejo\\DATOS\\DATOS.csproj"
+            "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\DATOS\\DATOS.csproj"
             }
           }
         }

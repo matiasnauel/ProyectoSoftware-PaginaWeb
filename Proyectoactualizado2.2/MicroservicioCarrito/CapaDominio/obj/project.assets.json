@@ -305,11 +305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
       "projectName": "CapaDominio",
-      "projectPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+      "projectPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
       "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan\\source\\repos\\MicroservicioCarrito\\CapaDominio\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\repositorio2\\ProyectoSoftware-PaginaWeb\\Proyectoactualizado2.2\\MicroservicioCarrito\\CapaDominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
