@@ -7,7 +7,7 @@ window.onload = function() {
 
 
         dataType: "json",	
-		
+		//hice un cambio
 		  success: function(data) {
 			//$.each(data, function(i, item) {  
 			  var producto = document.getElementById("producto");
