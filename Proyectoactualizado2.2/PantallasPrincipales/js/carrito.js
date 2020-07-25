@@ -244,3 +244,8 @@ function FiltrarDescripcion(descripcion)
 
     });
 }
+function llenarLocalStorage(publicacionID)
+{
+	localStorage.setItem("publicacionID",parseInt(publicacionID));
+	
+}
