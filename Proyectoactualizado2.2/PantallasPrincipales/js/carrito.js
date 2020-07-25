@@ -93,7 +93,6 @@ window.onload = function() {
 }
 
 
-<<<<<<< HEAD
 function cancelar()
 {
 	
@@ -239,23 +238,4 @@ function FiltrarDescripcion(descripcion)
 
 
     });
-=======
-function cancelar() {
-
-    $.ajax({
-        type: "GET",
-        url: "https://localhost:44310/api/Carrito/BorrarCarritoCompleto?carritoID=" + localStorage.getItem("carritoID"),
-        dataType: "json",
-        success: function(data) {
-
-
-            location.reload();
-
-        }
-
-
-    });
-
-
->>>>>>> 1417d5c631306d958013ffb16d23b130eff6f9db
 }
