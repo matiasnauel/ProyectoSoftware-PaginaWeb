@@ -30,16 +30,23 @@ window.onload = function() {
                 boton.id = item.productoID;
 
                 boton.onclick = function() {
-                    $.ajax({
-                        type: "POST",
-                        url: "https://localhost:44310/api/CarritoProducto/InsertarCarritoProductoCliente?carritoID=" + localStorage.getItem("carritoID") + "&productoID=" + item.productoID,
-                        dataType: "json",
-                        success: function(data) {
+                    if(localStorage.getItem("carritoID")!=null){
+                        $.ajax({
+                            type: "POST",
+                            url: "https://localhost:44310/api/CarritoProducto/InsertarCarritoProductoCliente?carritoID=" + localStorage.getItem("carritoID") + "&productoID=" + item.productoID,
+                            dataType: "json",
+                            success: function(data) {
+    
+                            }
+    
+    
+                        });
 
-                        }
-
-
-                    });
+                    }
+                    else{
+                        alert("No esta registrado, inicie sesion para agregar productos a su carrito");
+                    }
+               
                 }
                 div2.append(boton);
 
@@ -95,13 +102,19 @@ window.onload = function() {
         url: "https://localhost:44346/api/Authenticacion/getCliente?uids="+localStorage.getItem("uid"),
         dataType: "json",
         success: function(data) {
+            console.log(data);
             localStorage.setItem("carritoID",data.carritoId);
             localStorage.setItem("clienteID",data.clienteId);
-            localStorage.setitem("rolId",data.rolId);
+            localStorage.setItem("rolId",data.rolId);
         }
 
     });
 
+    }
+
+    if(parseInt(localStorage.getItem("rolId"))==1){
+     var configuracion = document.getElementById("configuracion");
+     configuracion.innerHTML='<a href="panel.html"><i class="fa fa-shopping-cart w3-margin-top" aria-hidden="true" style="font-size: 24px;"></i></a>';
     }
 
 
