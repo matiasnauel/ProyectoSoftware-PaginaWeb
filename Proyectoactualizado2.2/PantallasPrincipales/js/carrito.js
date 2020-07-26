@@ -7,6 +7,7 @@ window.onload = function() {
         success: function(data) {
             var precio = document.getElementById("precio");
             precio.innerHTML = "TOTAL: " + "$" + data.valorcarrito;
+            localStorage.setItem("valorcarrito",data.valorcarrito);
             $.each(data.productos, function(i, item) {
 
                 var tr = document.createElement('tr');
@@ -383,3 +384,26 @@ function llenarLocalStorage(publicacionID)
 	
 }
 
+function comprar()
+{
+if(parseInt(localStorage.getItem("valorcarrito"))>0)
+{
+    $.ajax({
+        type: "POST",
+        url: "https://localhost:44321/api/venta/InsertarVenta?carritoID="+localStorage.getItem("carritoID"),
+        dataType: "json",
+        success: function(data) 
+        {
+            cancelar();
+           
+                               }
+        
+        
+         });
+
+}
+else{
+    alert("No tiene productos en su carrito");
+    }
+
+}

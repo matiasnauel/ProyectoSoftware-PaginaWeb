@@ -97,6 +97,7 @@ window.onload = function() {
         success: function(data) {
             localStorage.setItem("carritoID",data.carritoId);
             localStorage.setItem("clienteID",data.clienteId);
+            localStorage.setitem("rolId",data.rolId);
         }
 
     });
