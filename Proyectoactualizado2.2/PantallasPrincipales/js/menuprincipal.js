@@ -88,6 +88,23 @@ window.onload = function() {
     });
 
 
+    if(localStorage.getItem("uid")!=null && localStorage.getItem("carritoID")==null&&localStorage.getItem("clienteID")==null ){
+
+    $.ajax({
+        type: "GET",
+        url: "https://localhost:44346/api/Authenticacion/getCliente?uids="+localStorage.getItem("uid"),
+        dataType: "json",
+        success: function(data) {
+            localStorage.setItem("carritoID",data.carritoId);
+            localStorage.setItem("clienteID",data.clienteId);
+        }
+
+    });
+
+    }
+
+
+
 }
 
 
@@ -516,7 +533,7 @@ function Observador() {
         }
     });
 }
-Observador();
+
 
 function iniciarSesion() {
 
@@ -524,10 +541,12 @@ function iniciarSesion() {
 
 }
 
-function Aparece(user) {
+function Aparece(user) 
+{
     //Si se verifico el usuario que rediriga la pagina
     if (user.uid != null) {
         contenido.innerHTML = `<a href="#" onclick="Cerrar();">Cerrar sesión</a>`;
     }
 }
-Aparece();
+
+Observador();

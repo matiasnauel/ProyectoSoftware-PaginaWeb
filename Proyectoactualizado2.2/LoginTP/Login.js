@@ -16,21 +16,15 @@
 
 //Boton para acceder con google ----------------------------------->
 const googleBoton = document.querySelector('#GoogleBoton');
-var token = "";
+
 
 googleBoton.addEventListener('click', e => {
     const provider = new firebase.auth.GoogleAuthProvider();
     auth.signInWithPopup(provider)
         .then(function(result) {
-            token = result.credential.accessToken;
-            var user = result.user;
-            var Uids = user.uid;
-
-            user.getIdToken().then(function(data) {
-                loginAPIGoogle(data, Uids);
-
-
-            });
+            var user = result.user.uid;
+            localStorage.setItem("uid",`${user}`);
+            location.href="/repositorio2/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/PantallasPrincipales/PaginaPrincipal.html";
         })
         .catch(erro => {
             console.log(erro);
@@ -38,27 +32,6 @@ googleBoton.addEventListener('click', e => {
 });
 
 //----------------------------------------------------------------->
-function loginAPIGoogle(data, Uids) {
-    $.ajax({
-        url: `https://localhost:44368/api/Autenticacion/getUser?uids=${Uids}`,
-        dataType: 'json',
-        type: 'GET',
-        beforeSend: function(xhr) {
-            xhr.setRequestHeader("Accept", "application/json");
-            xhr.setRequestHeader("Content-Type", "application/json");
-            xhr.setRequestHeader("Authorization", "Bearer " + data);
-        },
-
-        success: function(datos) {
-            localStorage.setItem("carritoID", datos.CarritoID);
-            localStorage.setItem("clienteID", datos.ClienteID);
-            location.href = "/repositorio2/ProyectoSoftware-PaginaWeb/Proyectoactualizado2.2/PantallasPrincipales/PaginaPrincipal.html";
-        },
-        error: function(ex) {
-            console.log(ex.status + " - " + ex.statusText);
-        },
-    });
-}
 
 
 //------------------------------------------------------------------>
@@ -146,7 +119,7 @@ function Observador() {
         }
     });
 }
-Observador();
+
 
 function Aparece(user) {
     //Si se verifico el usuario que rediriga la pagina
@@ -154,3 +127,7 @@ function Aparece(user) {
         location.href = "../PantallasPrincipales/PaginaPrincipal.html";
     }
 }
+
+
+
+
